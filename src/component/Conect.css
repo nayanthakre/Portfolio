@@ -1,0 +1,101 @@
+.conect-wrap{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    height: 700px;
+}
+.conect-text{
+    color:#fff;
+        margin-bottom: 35px;
+}
+.conect-text h1{
+  font-size: 40px;
+}
+
+.conect-form{
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color:#fff;
+}
+input{
+   width: 350px;
+    height: 40px;
+    background: #484848;
+    color: #fff;
+    border-radius: 8px;
+}
+textarea{
+        background: #484848;
+    color: #fff;
+    font-size: 15px;
+    height: 120px;
+    border-radius: 8px
+}
+button{
+       width: 100px;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background: #D3E97A;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+@media (min-width: 768px){
+    .conect-wrap{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    height: 600px;
+    padding-top: 50px; 
+}
+.conect-text{
+    color:#fff;
+}
+.conect-text h1{
+  font-size: 40px;
+}
+
+.conect-form{
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color:#fff;
+}
+input{
+     width: 600px;
+    height: 40px;
+    background: #484848;
+    color: #fff;
+    border-radius: 8px;
+}
+textarea{
+        background: #484848;
+    color: #fff;
+    font-size: 15px;
+    height: 120px;
+    border-radius: 8px
+}
+button{
+       width: 100px;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background: #D3E97A;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+}
